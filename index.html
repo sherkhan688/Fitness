@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Coach Anjana | फैट लॉस विशेषज्ञ | अपनी फिटनेस यात्रा शुरू करें</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb;
+            /* Light Background for contrast */
+        }
+        /* Primary color: Deep Slate for strength */
+        
+        .color-primary {
+            background-color: #1f2937;
+        }
+        /* Accent color: Emerald Green for energy and health */
+        
+        .color-accent {
+            background-color: #10b981;
+        }
+        
+        .text-accent {
+            color: #10b981;
+        }
+        
+        .shadow-fitness {
+            box-shadow: 0 10px 30px -5px rgba(16, 185, 129, 0.4);
+            /* Green Shadow */
+        }
+        /* Motivational Card Hover Effect */
+        
+        .card-hover-motivational {
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        
+        .card-hover-motivational:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 40px -10px rgba(31, 41, 55, 0.2);
+            border-color: #10b981;
+        }
+        /* Hero Image overlay for strong visual impact */
+        
+        .hero-bg {
+            background-image: url('https://placehold.co/1600x900/10b981/ffffff?text=Motivated+Fitness+Trainer');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="color-primary shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center">
+                    <span class="text-white text-3xl font-extrabold tracking-tight">FITNESS COACH <span class="text-accent">ANJANA</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-6">
+                        <a href="#home" class="text-gray-300 hover:text-accent transition duration-300 text-base font-medium">होम</a>
+                        <a href="#services" class="text-gray-300 hover:text-accent transition duration-300 text-base font-medium">मेरे प्रोग्राम</a>
+                        <a href="#about" class="text-gray-300 hover:text-accent transition duration-300 text-base font-medium">अंजलि के बारे में</a>
+                        <a href="#testimonials" class="text-gray-300 hover:text-accent transition duration-300 text-base font-medium">सफलता की कहानियाँ</a>
+                        <a href="#contact" class="text-gray-300 hover:text-accent transition duration-300 text-base font-medium">संपर्क</a>
+                    </div>
+                </div>
+                <a href="#contact" class="color-accent text-white font-bold py-2 px-5 rounded-full text-sm hover:bg-emerald-600 transition duration-300 hidden md:block shadow-md">फ्री कंसल्टेशन</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section (Motivational) -->
+    <section id="home" class="hero-bg h-[90vh] flex items-center justify-center relative">
+        <!-- Semi-transparent overlay for readability -->
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+        <div class="relative z-10 text-center p-6 max-w-4xl mx-auto">
+            <p class="text-xl sm:text-2xl text-accent font-semibold mb-3 tracking-wider uppercase">फैट कम करें, आत्मविश्वास बढ़ाएँ।</p>
+            <h1 class="text-5xl sm:text-7xl lg:text-8xl font-black text-white mb-6 leading-tight">
+                परिवर्तन की शुरुआत <span class="text-accent">आज</span> से।
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-200 mb-10">
+                फैट लॉस विशेषज्ञ, अंजलि के साथ अपनी स्थायी फिटनेस यात्रा शुरू करें। अब और इंतज़ार नहीं।
+            </p>
+            <div class="mt-8">
+                <a href="#services" class="color-accent text-white font-bold text-xl py-4 px-12 rounded-full shadow-fitness hover:bg-emerald-600 transition duration-500 transform hover:scale-105">
+                    फैट लॉस प्रोग्राम देखें
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 2. Services/Programs Showcase -->
+    <section id="services" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-extrabold text-center color-primary mb-4 text-primary">आपके लिए सही प्रोग्राम खोजें</h2>
+            <p class="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-12">
+                अंजलि वैज्ञानिक रूप से सिद्ध, व्यक्तिगत योजनाओं के माध्यम से स्थायी परिणाम सुनिश्चित करती हैं।
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1: Core Fat Loss Program -->
+                <div class="card-hover-motivational bg-white p-8 rounded-2xl shadow-xl border-t-4 border-accent transition duration-500 text-center">
+                    <svg class="w-12 h-12 text-accent mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">1. इंटेंस फैट लॉस</h3>
+                    <p class="text-gray-600 mb-4">त्वरित और सुरक्षित रूप से वजन कम करने के लिए 12 सप्ताह का केंद्रित प्रशिक्षण और पोषण योजना।</p>
+                    <a href="#contact" class="text-accent font-semibold hover:underline">अधिक जानें &rarr;</a>
+                </div>
+
+                <!-- Service 2: Personalized Nutrition -->
+                <div class="card-hover-motivational bg-white p-8 rounded-2xl shadow-xl border-t-4 border-gray-400 transition duration-500 text-center">
+                    <svg class="w-12 h-12 text-gray-700 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3 .895 3 2s-1.343 2-3 2l-1 2H9v-2M9 10a3 3 0 110-6 3 3 0 010 6z"></path></svg>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">2. व्यक्तिगत पोषण योजना</h3>
+                    <p class="text-gray-600 mb-4">आपके शरीर के प्रकार और जीवनशैली के अनुरूप कस्टम डाइट चार्ट, जिससे भूखा नहीं रहना पड़ता।</p>
+                    <a href="#contact" class="text-accent font-semibold hover:underline">अधिक जानें &rarr;</a>
+                </div>
+
+                <!-- Service 3: Strength and Muscle Building -->
+                <div class="card-hover-motivational bg-white p-8 rounded-2xl shadow-xl border-t-4 border-blue-600 transition duration-500 text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-.895 3-2s-1.343-2-3-2m0 4v2m0-12V5m0 16h8a2 2 0 002-2v-2a2 2 0 00-2-2h-8m0 6h8a2 2 0 002-2v-2a2 2 0 00-2-2h-8"></path></svg>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-3">3. शक्ति प्रशिक्षण</h3>
+                    <p class="text-gray-600 mb-4">मांसपेशियों का निर्माण और मेटाबॉलिज्म को बढ़ाने के लिए डिज़ाइन किए गए प्रभावी वर्कआउट रूटीन।</p>
+                    <a href="#contact" class="text-accent font-semibold hover:underline">अधिक जानें &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Coach Bio (About Anjana) -->
+    <section id="about" class="py-16 md:py-24 color-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:space-x-12 items-center">
+                <div class="md:w-1/3 mb-8 md:mb-0 text-center">
+                    <img src="https://placehold.co/300x300/10b981/ffffff?text=Coach+Anjana+Image" alt="Coach Anjana Profile" class="rounded-full w-48 h-48 mx-auto object-cover border-4 border-accent shadow-2xl">
+                    <h3 class="text-3xl font-bold text-white mt-4">कोच अंजलि (Anjali)</h3>
+                    <p class="text-accent text-lg">प्रमाणित फिटनेस ट्रेनर और न्यूट्रिशन कोच</p>
+                </div>
+                <div class="md:w-2/3">
+                    <h2 class="text-4xl font-extrabold text-accent mb-4">मेरा मिशन: आपको सशक्त बनाना</h2>
+                    <p class="text-lg text-gray-300 mb-6">
+                        मैं, अंजलि, एक प्रमाणित फिटनेस कोच हूँ और पिछले 8 वर्षों से लोगों को उनके फैट लॉस लक्ष्यों को प्राप्त करने में मदद कर रही हूँ। मेरा दर्शन यह है कि फिटनेस केवल जिम में समय बिताना नहीं है, बल्कि एक टिकाऊ जीवनशैली बनाना है जो आप हमेशा बनाए रख सकते हैं।
+                    </p>
+                    <div class="bg-gray-700 p-4 rounded-xl text-lg italic border-l-4 border-accent">
+                        "मैं आपको 'भूखा' महसूस कराए बिना परिणाम प्राप्त करने में विश्वास रखती हूँ। मेरा ध्यान स्थायी परिवर्तन और आजीवन स्वास्थ्य पर है।"
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    [Image of a healthy meal]
+
+    <!-- 4. Testimonials (Success Stories) -->
+    <section id="testimonials" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-extrabold text-center text-primary mb-4">सफलता की कहानियाँ</h2>
+            <p class="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-12">
+                देखें कि मेरे क्लाइंट्स ने फैट लॉस और फिटनेस में कितना जबरदस्त बदलाव हासिल किया है।
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-accent card-hover-motivational">
+                    <p class="text-3xl text-accent mb-3 font-serif">“</p>
+                    <p class="text-gray-700 italic mb-4">"मैंने 3 महीने में 15 किलो फैट कम किया। अंजलि की योजनाएँ इतनी सरल और प्रभावी थीं कि मुझे कभी भी किसी चीज़ से वंचित महसूस नहीं हुआ। धन्यवाद, कोच!"</p>
+                    <p class="font-bold text-gray-900">- प्रिया शर्मा, 32</p>
+                    <p class="text-sm text-accent">(-15 kg Fat Loss)</p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-accent card-hover-motivational">
+                    <p class="text-3xl text-accent mb-3 font-serif">“</p>
+                    <p class="text-gray-700 italic mb-4">"मेरी ऊर्जा का स्तर आसमान छू रहा है! मुझे सिर्फ फैट लॉस नहीं हुआ, बल्कि मेरी नींद और फोकस में भी सुधार हुआ है। 10/10 की सिफारिश।"</p>
+                    <p class="font-bold text-gray-900">- राहुल वर्मा, 45</p>
+                    <p class="text-sm text-accent">(Improved Stamina)</p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-accent card-hover-motivational">
+                    <p class="text-3xl text-accent mb-3 font-serif">“</p>
+                    <p class="text-gray-700 italic mb-4">"मैं 6 महीने से ट्रेनिंग कर रही हूँ और अब मैं पहले से कहीं ज़्यादा मजबूत महसूस करती हूँ। अंजलि का सपोर्ट सिस्टम अविश्वसनीय है।"</p>
+                    <p class="font-bold text-gray-900">- नेहा पटेल, 28</p>
+                    <p class="text-sm text-accent">(Increased Strength)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Call to Action/Contact Form -->
+    <section id="contact" class="color-primary py-16 md:py-24">
+        <div class="max-w-4xl mx-auto text-center p-6 sm:p-0">
+            <h2 class="text-4xl font-extrabold text-white mb-4">अपनी मुफ्त 15-मिनट की कंसल्टेशन बुक करें</h2>
+            <p class="text-xl text-gray-300 mb-8">आइए आपकी चुनौतियों पर चर्चा करें और एक व्यक्तिगत योजना बनाएं। कोई बाध्यता नहीं।</p>
+
+            <!-- Simple Placeholder Contact Form -->
+            <form class="space-y-4 max-w-md mx-auto">
+                <input type="text" placeholder="आपका नाम" class="w-full p-3 rounded-lg border-2 border-gray-700 focus:border-accent focus:ring focus:ring-accent focus:ring-opacity-50 text-gray-900" required>
+                <input type="email" placeholder="आपका ईमेल" class="w-full p-3 rounded-lg border-2 border-gray-700 focus:border-accent focus:ring focus:ring-accent focus:ring-opacity-50 text-gray-900" required>
+                <textarea placeholder="आपका मुख्य लक्ष्य (जैसे: 10 किलो फैट कम करना)" rows="3" class="w-full p-3 rounded-lg border-2 border-gray-700 focus:border-accent focus:ring focus:ring-accent focus:ring-opacity-50 text-gray-900" required></textarea>
+                <button type="submit" class="color-accent text-white font-bold text-lg py-3 w-full rounded-full shadow-fitness hover:bg-emerald-600 transition duration-300 transform hover:scale-[1.01]">
+                    मुफ्त कंसल्टेशन शेड्यूल करें
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-center md:text-left mb-4 md:mb-0">&copy; 2024 Fitness Coach Anjana. सर्वाधिकार सुरक्षित। | Built for Success</p>
+            <div class="flex space-x-6 text-sm">
+                <a href="#" class="hover:text-accent transition">टर्म्स</a>
+                <a href="#" class="hover:text-accent transition">प्राइवेसी</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
